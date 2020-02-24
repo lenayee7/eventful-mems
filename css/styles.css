@@ -1,0 +1,101 @@
+/* navbar purple - #8e4ab5 */ 
+/* i like this one #8240f7 */
+/* light purple - #c594f2 */
+/* dark purple - #4d1559 */
+
+
+h1, h2, h3, button {
+    font-family: "Pangolin"; 
+    color: #000;
+}
+
+body {
+    font-family: "Work Sans";
+    color: #000;
+}
+
+/* #h1Eventfulmems {
+    margin-top: 0.7rem;
+} */
+
+a {
+    font-family: "Lekton";
+}
+
+.btn-primary {
+    background-color: #c594f2;
+    border-color: #c594f2;
+    color: #000;
+  }
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:active:focus,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #c594f2 !important;
+    border: 2px solid #4d1559 !important;
+    color: #000;
+}
+
+.btn-primary:focus { 
+    box-shadow: none !important; 
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 10px;
+    background-color: #8e4ab5;
+    border: 2px solid #c594f2;
+    /* color: white; */
+}
+
+#giraffeLogo {
+    width: 50px;
+    height: auto;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px; 
+  }
+
+  /* Login Modal */
+  .modal-dialog {
+    width: 350px;
+    height: 500px;
+  }
+
+  .modal-body {
+    background-color: #c594f2;
+  }
+
+  .modal-header {
+    background-color: #8e4ab5;
+    border-bottom: none;
+    }
+
+  .loginFormContainer {
+    padding: 0 2rem;
+  }
+
+  .loginFormInputs {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #8e4ab5;
+    background-color: #fff0;
+    margin: .3rem auto;
+    transition: none;
+  }
+
+  input::-webkit-input-placeholder {
+    color: #000 !important;
+  }
+
+  .actionButton {
+    background-color: #8e4ab5;
+    border: 2px solid #4d1559;
+    border-radius: 25px;
+    padding: .3rem 2rem;
+  }
