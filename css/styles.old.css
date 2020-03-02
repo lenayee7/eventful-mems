@@ -1,0 +1,135 @@
+/* navbar purple - #8e4ab5 */ 
+/* i like this one #8240f7 */
+/* light purple - #c594f2 */
+/* dark purple - #4d1559 */
+/* modal body - #d9c2ef */
+
+h1, h2, h3, button {
+    font-family: "Pangolin"; 
+    color: #000;
+}
+
+body {
+    font-family: "Work Sans";
+    color: #000;
+    /* background-image: radial-gradient( #a894ff, #b471d0, #2f1940); */
+    background-repeat: repeat-x;
+    height: 100vh;
+    /* background-image: linear-gradient(to right bottom, #a894ff, #b471d0, #2f1940) */
+
+}
+
+/* #hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/calm-ocean.png");
+    height: 600px; */
+
+    /* Position and center the image to scale nicely on all screens */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+
+/* .hero-text { */
+    /* text-align: center; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+} */
+
+a {
+    font-family: "Lekton";
+}
+
+.btn-primary {
+    background-color: #c594f2;
+    border-color: #c594f2;
+    color: #000;
+  }
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:active:focus,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #c594f2 !important;
+    border: 2px solid #4d1559 !important;
+    color: #000;
+}
+
+.btn-primary:focus { 
+    box-shadow: none !important; 
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 10px;
+    background-color: #68368e;
+    border: 2px solid #c594f2;
+    /* background-image: linear-gradient(to right bottom, #a894ff, #b471d0, #2f1940) */
+}
+
+#giraffeLogo {
+    width: 50px;
+    height: auto;
+}
+
+.row-content {
+    padding: 50px 0;
+    min-height: 200px; 
+  }
+
+  /* Login Modal */
+
+  /* .centerModal {
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  } */
+
+  /* .modal {
+    width: 100%;
+    max-width: 600px;
+  } */
+
+  .modal-body {
+    background-color: #d9c2ef;
+    padding: 10% 5%;
+  }
+
+  .modal-header {
+    background-color: #8e4ab5;
+    border-bottom: none;
+    }
+
+  .loginFormContainer {
+    padding: 0 2rem;
+  }
+
+  .loginFormInputs {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #8e4ab5;
+    background-color: #fff0;
+    margin: .3rem auto;
+    transition: none;
+  }
+
+  .form-group {
+    margin-bottom: 1.4rem
+  }
+
+  input::-webkit-input-placeholder {
+    color: #000 !important;
+  }
+
+  .actionButton {
+    background-color: #8e4ab5;
+    border: 2px solid #4d1559;
+    border-radius: 25px;
+    padding: .3rem 2rem;
+  }

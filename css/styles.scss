@@ -1,0 +1,202 @@
+/* navbar purple - #8e4ab5 */ 
+/* i like this one #8240f7 */
+/* light purple - #c594f2 */
+/* dark purple - #4d1559 */
+/* modal body - #d9c2ef */
+
+$color-primary: #6b2b90;
+$color-secondary: #c594f2;
+$color-pale: #e0ccf3;
+$color-mid: #4d1559;
+$color-dark: #230522;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+$color-teal: #17A2B8;
+$color-accent: #ddff75;
+$color-gray: #dadada;
+
+$font-primary: "Lekton", ;
+$font-header: "Josefin Sans";
+$font-buttons: "Josefin Sans";
+
+/* Spacing Utilities */
+
+.padding-top-5 {
+  padding-top: 3%;
+}
+
+h1, h2, h3 {
+    font-family: $font-header; 
+    color: #000;
+}
+
+.color-primary {
+  color: $color-primary;
+}
+
+body {
+    font-family: $font-primary;
+    color: #000;
+    background: linear-gradient(to right bottom,#e0bf47, #937dd8, #e0bf47);
+  }
+
+
+a, button {
+    font-family: $font-buttons;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 10px;
+    background-image: linear-gradient(to right bottom, $color-primary, $color-dark);
+    border: 2px solid $color-secondary;
+}
+
+#giraffeLogo {
+    width: 40px;
+    height: auto;
+}
+
+.row-content {
+    padding: 50px 0;
+    min-height: 200px; 
+  }
+
+#home-container p {
+  font-family: 'Work Sans';
+  font-size: 1.3rem;
+}
+
+#home-container {
+  padding: 0 8%;
+
+}
+
+/*  Bootstrap Buttons */
+
+.btn-primary, .btn-primary:active, .btn-primary:visited, .btn-primary:focus, .btn-primary:active:focus {
+    background-color: $color-secondary;
+    border: 2px solid $color-mid;
+    color: #000
+}
+
+.btn-primary:hover {
+    background-color:#fff0;
+    border: 2px solid $color-accent;
+    // color: #000;
+}
+  /* Login Modal */
+
+  .modal-body {
+    background-color: $color-pale;
+    padding: 5% 2%;
+  }
+
+  .modal-header {
+    background-color: $color-primary;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    }
+
+  .modal-content {
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .modal-dialog {
+    border-radius: 25px;
+    background-color: #fff0;
+  }
+
+  .loginFormContainer {
+    padding: 0 2rem;
+  }
+
+  .loginFormInputs {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid $color-primary;
+    background-color: #fff0;
+    margin: .3rem auto;
+    transition: none;
+  }
+
+  .form-group {
+    margin-bottom: 1.4rem
+  }
+
+  input::-webkit-input-placeholder {
+    color: #000 !important;
+  }
+
+  .actionButton {
+    // background-color: $color-primary;
+    background-color: $color-primary;
+    border: 2px solid $color-mid;
+    border-radius: 25px;
+    color: $color-pale;
+    padding: .5rem 2.5rem;
+  }
+
+.site-footer {
+    background-image: linear-gradient($color-primary, $color-dark);
+}
+
+/*  Event Page  */
+
+.event-pg-header-container{
+  background-color: $color-primary;
+  padding: 3%;
+  border-radius: 25px;
+}
+
+.event-pg-content-header{
+  background-color: $color-pale;
+  border-radius: 10px;
+}
+
+#event-tab-container {
+  margin-top: 5%;
+  // background-color: $color-gray;
+  border-radius: 0 10px 10px 10px;
+}
+
+.event-img {
+  padding: 3%;
+  width: 80%;
+  max-height: 400px;
+}
+
+.event-row-margin {
+  border-bottom: 1px ridge gray;
+  padding: 30px 0;
+}
+
+.tab-content {
+  background-color: $color-gray;
+  border: 2px solid gray;
+  margin-bottom: 5%;
+}
+
+.nav-tabs .nav-item {
+  border-radius: 10px 10px 0 0;
+  background-color: $color-pale;
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color: $color-primary;
+  border-radius: 10px 10px 0 0;
+  color: $color-gray;
+}
+
+/*  Media Queries */
+
+@media (max-width: 575.98px) {
+  .event-img {
+    width: 80%;
+  }   
+}
+
+
