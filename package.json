@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "This is a website where you can create events and send to friends and family",
   "main": "index.html",
+  "homepage": "https://lenayee7.github.io/eventful-mems",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^2.2.0",
     "jquery": "^3.3.1",
     "lite-server": "^2.3.0",
     "pickadate": "^5.0.0-alpha.3",
@@ -19,6 +21,7 @@
     "parallelshell": "^3.0.1"
   },
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
