@@ -1,9 +1,3 @@
-/* navbar purple - #8e4ab5 */ 
-/* i like this one #8240f7 */
-/* light purple - #c594f2 */
-/* dark purple - #4d1559 */
-/* modal body - #d9c2ef */
-
 $color-primary: #6b2b90;
 $color-secondary: #c594f2;
 $color-pale: #e0ccf3;
@@ -62,14 +56,29 @@ a, button {
   }
 
 #home-container p {
-  font-family: 'Work Sans';
-  font-size: 1.3rem;
+  font-family: 'Lekton';
+  font-size: 1.5rem;
 }
 
 #home-container {
   padding: 0 8%;
-
 }
+
+
+.btn-danger, .btn-danger:active, .btn-danger:visited, .btn-danger:focus, .btn-danger:active:focus {
+  background-color: $color-primary;
+  border: 2px solid #c594f2;
+}
+
+.btn-danger:hover {
+  background-color:#fff0;
+  border: 2px solid $color-accent;
+}
+
+// .btn-danger {
+//   background-color: $color-primary;
+//   border: 1 solid $color-primary; 
+// }
 
 /*  Bootstrap Buttons */
 
