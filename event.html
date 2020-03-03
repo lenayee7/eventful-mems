@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 
-    <!-- Bootstrap Css -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
+     <!-- build:css css/main.css -->
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+     <link rel="stylesheet" href="css/styles.css" />
+     <!-- endbuild -->
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Abel|Josefin+Sans|Lekton|Open+Sans+Condensed:300|Pangolin|Raleway|Work+Sans&display=swap" rel="stylesheet">
@@ -145,11 +146,11 @@
                 </li>
             </ul>
             <div class="tab-content col-md-10 mx-auto">
-                <div class="tab-pane fade" id="upcoming">
+                <div class="tab-pane fade show active" id="upcoming">
                     <!-- <h4 class="mt-2">Upcoming tab content</h4> -->
                     <div class="row event-row-margin">
                         <div class="col-sm-6 mb-3 mb-sm-0 d-flex align-items-center">
-                            <img src="img/happy-bday-mom-2.jpg" class="img-fluid mx-auto d-block col-xs-6 event-img" />
+                            <img src="img/happy-bday-mom-2.jpg" class="img-fluid mx-auto d-block col-xs-6 event-img" alt="happy birthday mom 2020" />
                         </div>
                         <div class="col-sm-6 align-self-center text-sm-left text-center">
                             <h3><b>Win & Mom's Bday</b></h3>
@@ -160,6 +161,22 @@
                             Honolulu HI, 96817</br>
                             </address>
                         </div>
+                    </div>
+                    <div class="row event-row-margin">
+                        <div class="col-sm-6 mb-3 mb-sm-0 d-flex align-items-center">
+                            <img src="img/mike-love-berkley.png" class="img-fluid mx-auto d-block col-xs-6 event-img" alt="Mike Love concert may 2020" />
+                        </div>
+                        <div class="col-sm-6 align-self-center text-sm-left text-center">
+                            <h3><b>Mike Love at Cornerstone </b></h3>
+                            <p>May 17, 2020</p>
+                            <address>
+                            <strong>HCornerstone Craft Beer & Live Music</strong><br>
+                            2367 Shattuck Avenue</br>
+                            Berkeley, CA 94704</br>
+                            </address>
+                        </div>
+                    </div>
+                    <div class="row event-row-margin">
                         <div class="col-sm-6 mb-3 mb-sm-0 d-flex align-items-center">
                             <img src="img/bay-slay-3.png" class="img-fluid mx-auto d-block col-xs-6 event-img" />
                         </div>
@@ -174,7 +191,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade show active" id="past">
+                <div class="tab-pane fade" id="past">
                     <!-- <h4 class="mt-2">Past tab content</h4> -->
                     <div class="row event-row-margin">
                         <div class="col-sm-6 mb-3 mb-sm-0 d-flex align-items-center">
@@ -266,13 +283,13 @@
         </div>
     </footer>
    
-    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/pickadate/builds/index.js"></script>
     <script src="js/scripts.js"></script>
-    
+    <!-- endbuild -->
 </body>
 
 </html>
