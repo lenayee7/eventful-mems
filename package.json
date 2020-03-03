@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a website where you can create events and send to friends and family",
   "main": "index.html",
-  "homepage": "https://lenayee7.github.io/eventful-mems",
+  "homepage": "lenayee.com/eventful-mems",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "font-awesome": "^4.7.0",
@@ -30,7 +30,7 @@
     "scss": "node-sass -o css/ css/",
     "start": "npm run watch:all",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "usemin": "usemin event.html -d dist --htmlmin -o dist/eveent.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "usemin": "usemin event.html -d dist --htmlmin -o dist/event.html && usemin index.html -d dist --htmlmin -o dist/index.html",
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
   },
