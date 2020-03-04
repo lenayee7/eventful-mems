@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a website where you can create events and send to friends and family",
   "main": "index.html",
-  "homepage": "lenayee.com/eventful-mems",
+  "homepage": "https://lenayee7.github.io/eventful-mems/",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "font-awesome": "^4.7.0",
