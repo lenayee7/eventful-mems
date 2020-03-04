@@ -7,6 +7,9 @@ This is a website where you can create events and send to friends and family
 * Jquery
 * Git
 
+### View Website Link here: 
+https://lenayee7.github.io/eventful-mems/
+
 ### Some screenshots
 
 ###### Homepage
