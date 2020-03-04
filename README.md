@@ -7,9 +7,13 @@ This is a website where you can create events and send to friends and family
 * Jquery
 * Git
 
+### Some screenshots
 
-![Homepage](/img/homepage)
+###### Homepage
+<img src="https://github.com/lenayee7/eventful-mems/blob/master/img/homepage.png" width="500" />
 
-![Create Modal](/img/create-modal)
+###### Create Modal
+<img src="https://github.com/lenayee7/eventful-mems/blob/master/img/create-modal.png" width="500" />
 
-![Upcoming Events View](/img/upcoming-events)
+###### Upcoming Events
+<img src="https://github.com/lenayee7/eventful-mems/blob/master/img/upcoming-events.png" width="500" />
