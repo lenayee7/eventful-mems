@@ -17,8 +17,7 @@
 </head>
 
 <body>
-
-    <header class="jumbotron jumbotron-fluid">
+    <header id="topheader" class="jumbotron jumbotron-fluid">
         <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
             <div class="container">
                 <a class="navbar-brand d-inline" href="index.html"><img id="giraffeLogo" src="img/giraffe-face-art.png">
@@ -27,7 +26,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="eventfulmemsNavbar">
-                    <ul class="nav navbar-nav ml-auto justify-content-end">
+                    <ul class="nav navbar-nav ml-auto justify-content-end text-right">
                         <li class="nav-item active"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i>Home</a></li>
                         <li class="nav-item "><a class="nav-link" href="event.html"><i class="fa fa-calendar fa-lg"></i>Events</a></li>
                     </ul>
@@ -118,26 +117,27 @@
                 </div>
             </div>
         </div>
-        <div class="event-pg-header-container">
-            <div class="event-pg-content-header p-md-5 p-3">
+        <div class="col-md-8 mx-auto event-pg-header-container">
+            <div class="event-pg-content-header p-md-3 p-3">
                 <div class="row mb-2">
-                    <div class="col">
+                    <div class="col my-auto pl-4">
                         <h3>Hello Weedlez</h3>
-                        <h4>You have X Upcoming Events</h3>
+                        <h4>You have 3 Upcoming Events</h3>
+                        <div class="createEventButtonDiv col mt-3">
+                            <button id="createEventButton" type="button" class="btn btn-primary">
+                                Create Event
+                            </button>
+                        </div>
                     </div>
-                </div>
-                <div class="row mt-xs-3">
-                    <div class="col text-lg-left text-center">
-                        <button id="createEventButton" type="button" class="btn btn-primary">
-                            Create Event
-                        </button>
+                    <div class="col text-center">
+                        <img src="img/standing-giraffe.png" alt="standing giraffe" width="100" />
                     </div>
                 </div>
             </div>   
         </div>
 
         <div id="event-tab-container">
-            <ul id="myTab" class="nav nav-tabs mt-5 col-md-10 mx-auto">
+            <ul id="myTab" class="nav nav-tabs mt-5 col-md-12 mx-auto">
                 <li class="nav-item">
                     <a href="#upcoming" class="nav-link">Upcoming</a>
                 </li>
@@ -145,42 +145,45 @@
                     <a href="#past" class="nav-link active">Past</a>
                 </li>
             </ul>
-            <div class="tab-content col-md-10 mx-auto">
+            <div class="tab-content col-md-12 mx-auto">
                 <div class="tab-pane fade show active" id="upcoming">
                     <!-- <h4 class="mt-2">Upcoming tab content</h4> -->
                     <div class="row event-row-margin">
-                        <div class="col-sm-6 mb-3 mb-sm-0 d-flex align-items-center">
+                        <div class="col-md-6 mb-3 mb-sm-0 d-flex align-items-center">
                             <img src="img/presidio-2019.PNG" class="img-fluid mx-auto d-block col-xs-6 event-img" alt="Presidio 2019" />
                         </div>
-                        <div class="col-sm-6 align-self-center text-sm-left text-center">
+                        <div class="col-md-6 align-self-center text-md-left text-center">
                             <h3><b>2020 Levi's Presidio 10 Presented by The Guardsmen </b></h3>
-                            <p>September 27, 2017</p>
+                            <p>April 19, 2020</p>
                             <address>
                             <strong>Crissy Field across from the Sports Basement</strong><br>
                             610 Old Mason St.</br>
                             San Francisco, CA 94129</br>
                             </address>
+                            <h4><a href="https://guardsmen.org/events/2020-levis-presidio-10/">Get more info: <u>here</u></a></h4>
+
                         </div>
                     </div>
                     <div class="row event-row-margin">
-                        <div class="col-sm-6 mb-3 mb-sm-0 d-flex align-items-center">
-                            <img src="img/mike-love-berkley.png" class="img-fluid mx-auto d-block col-xs-6 event-img" alt="Mike Love concert may 2020" />
+                        <div class="col-md-6 mb-3 mb-sm-0 d-flex align-items-center">
+                            <iframe class="event-img" src="https://www.youtube.com/embed/j8VUsoqpBZ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
-                        <div class="col-sm-6 align-self-center text-sm-left text-center">
+                        <div class="col-md-6 align-self-center text-md-left text-center">
                             <h3><b>Mike Love at Cornerstone </b></h3>
                             <p>May 17, 2020</p>
                             <address>
-                            <strong>HCornerstone Craft Beer & Live Music</strong><br>
+                            <strong>Cornerstone Craft Beer & Live Music</strong><br>
                             2367 Shattuck Avenue</br>
                             Berkeley, CA 94704</br>
                             </address>
+                            <h4><a href="https://www.eventbrite.com/e/mike-love-at-cornerstone-may-19-2020-tickets-96753146265">This event is foreal: Eventbrite</a></h4>
                         </div>
                     </div>
                     <div class="row event-row-margin">
-                        <div class="col-sm-6 mb-3 mb-sm-0 d-flex align-items-center">
+                        <div class="col-md-6 mb-3 mb-sm-0 d-flex align-items-center">
                             <img src="img/bay-slay-3.PNG" class="img-fluid mx-auto d-block col-xs-6 event-img" />
                         </div>
-                        <div class="col-sm-6 align-self-center text-sm-left text-center">
+                        <div class="col-md-6 align-self-center text-md-left text-center">
                             <h3><b>Bebeh Slade's 3rd Bday</b></h3>
                             <p>September 27, 2017</p>
                             <address>
@@ -194,10 +197,10 @@
                 <div class="tab-pane fade" id="past">
                     <!-- <h4 class="mt-2">Past tab content</h4> -->
                     <div class="row event-row-margin">
-                        <div class="col-sm-6 mb-3 mb-sm-0 d-flex align-items-center">
+                        <div class="col-md-6 mb-3 mb-sm-0 d-flex align-items-center">
                             <img src="img/santa-cruz-beach.jpg" class="img-fluid mx-auto d-block col-xs-6 event-img" />
                         </div>
-                        <div class="col-sm-6 align-self-center text-sm-left text-center">
+                        <div class="col-md-6 align-self-center text-md-left text-center">
                             <h3><b>Santa Cruz</b></h3>
                             <p>February 22, 2020</p>
                             <address>
@@ -208,10 +211,10 @@
                         </div>            
                     </div>
                     <div class="row event-row-margin">
-                        <div class="col-sm-6 mb-3 mb-sm-0 d-flex align-items-center">
+                        <div class="col-md-6 mb-3 mb-sm-0 d-flex align-items-center">
                             <img src="img/xmas-in-hawaii.jpg" class="img-fluid mx-auto d-block col-xs-6 event-img" />
                         </div>
-                        <div class="col-sm-6 align-self-center text-sm-left text-center">
+                        <div class="col-md-6 align-self-center text-md-left text-center">
                             <h3><b>Xmas in Hawaii</b></h3>
                             <p>December 27, 2019</p>
                             <address>
@@ -221,10 +224,10 @@
                         </div>            
                     </div>
                     <div class="row event-row-margin">
-                        <div class="col-sm-6 mb-3 mb-sm-0 d-flex align-items-center">
+                        <div class="col-md-6 mb-3 mb-sm-0 d-flex align-items-center">
                             <img src="img/morning-run.jpg" class="img-fluid mx-auto d-block col-xs-6 event-img" />
                         </div>
-                        <div class="col-sm-6 align-self-center text-sm-left text-center">
+                        <div class="col-md-6 align-self-center text-md-left text-center">
                             <h3><b>Morning Run Golden Gate</b></h3>
                             <p>September 28, 2019</p>
                             <address>
@@ -235,10 +238,10 @@
                         </div>            
                     </div>
                     <div class="row event-row-margin">
-                        <div class="col-sm-6 mb-3 mb-sm-0 d-flex align-items-center">
+                        <div class="col-md-6 mb-3 mb-sm-0 d-flex align-items-center">
                             <img src="img/halloween-2019.jpg" class="img-fluid mx-auto d-block col-xs-6 event-img" />
                         </div>
-                        <div class="col-sm-6 align-self-center text-sm-left text-center">
+                        <div class="col-md-6 align-self-center text-md-left text-center">
                             <h3><b>Halloween 2019</b></h3>
                             <p>October 31, 2019</p>
                             <address>
@@ -247,10 +250,10 @@
                         </div>            
                     </div>
                     <div class="row event-row-margin">
-                        <div class="col-sm-6 mb-3 mb-sm-0 d-flex align-items-center">
+                        <div class="col-md-6 mb-3 mb-sm-0 d-flex align-items-center">
                             <img src="img/happy-bday-mom.JPG" class="img-fluid mx-auto d-block col-xs-6 event-img" />
                         </div>
-                        <div class="col-sm-6 align-self-center text-sm-left text-center">
+                        <div class="col-md-6 align-self-center text-md-left text-center">
                             <h3><b>Happy Birthday Mom!</b></h3>
                             <p>April 7, 2019</p>
                             <address>

@@ -5,7 +5,7 @@ $color-mid: #4d1559;
 $color-dark: #230522;
 $color-transparent-black: rgba(0, 0, 0, 0.5);
 $color-teal: #17A2B8;
-$color-accent: #ddff75;
+$color-accent: #31aed4;
 $color-gray: #dadada;
 
 $font-primary: "Lekton", ;
@@ -28,11 +28,14 @@ h1, h2, h3 {
 }
 
 body {
+  background-image: linear-gradient(to right bottom, #94e4e1, #937dd8, #330d46);
     font-family: $font-primary;
     color: #000;
-    background: linear-gradient(to right bottom, #e0bf47, #937dd8, #ae79ba);
   }
 
+a, .btn-link{
+  color: $color-accent;
+}
 
 a, button {
     font-family: $font-buttons;
@@ -57,13 +60,12 @@ a, button {
 
 #home-container p {
   font-family: 'Lekton';
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 #home-container {
   padding: 0 8%;
 }
-
 
 .btn-danger, .btn-danger:active, .btn-danger:visited, .btn-danger:focus, .btn-danger:active:focus {
   background-color: $color-primary;
@@ -72,13 +74,8 @@ a, button {
 
 .btn-danger:hover {
   background-color:#fff0;
-  border: 2px solid $color-accent;
+  // border: 2px solid $color-accent;
 }
-
-// .btn-danger {
-//   background-color: $color-primary;
-//   border: 1 solid $color-primary; 
-// }
 
 /*  Bootstrap Buttons */
 
@@ -90,8 +87,15 @@ a, button {
 
 .btn-primary:hover {
     background-color:#fff0;
-    border: 2px solid $color-accent;
-    // color: #000;
+    color: #000;
+}
+
+.createEventButtonDiv {
+  padding: 0;
+}
+
+#createEventButton {
+  padding: 4% 20%;
 }
   /* Login Modal */
 
@@ -170,8 +174,8 @@ a, button {
 
 .event-img {
   padding: 3%;
-  width: 80%;
-  max-height: 400px;
+  min-width: 100%;
+  min-height: 300px;
 }
 
 .event-row-margin {
@@ -190,6 +194,14 @@ a, button {
   background-color: $color-pale;
 }
 
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: $color-accent;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
 .nav-tabs {
   border-bottom: none;
 }
@@ -204,8 +216,12 @@ a, button {
 
 @media (max-width: 575.98px) {
   .event-img {
-    width: 80%;
-  }   
+    width: 70%;
+  }
+
+  .event-row-margin {
+    padding: 30px;
+  }
 }
 
 

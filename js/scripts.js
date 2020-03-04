@@ -30,6 +30,12 @@ $(function() {
         $(this).tab('show');
     });
 
+    $( '#topheader .navbar-nav a' ).click(function () {
+        // e.preventDefault();
+        $( '#topheader .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+        $( this ).parent( 'li' ).addClass( 'active' );
+    });
+
     // const element = document.getElementById('datePicker')
     // const picker = pickadate.create()
     // pickadate.render(element, picker)
