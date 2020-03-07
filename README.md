@@ -1,4 +1,4 @@
-# Eventful Mems - WIP
+# <img src="https://github.com/lenayee7/eventful-mems/blob/master/dist/img/giraffe-face-art.png" width="30" /> Eventful Mems - WIP
 This is a website where you can create events and save them as memories.
 Front End project using Bootstrap 4.
 
