@@ -1,7 +1,12 @@
 # Eventful Mems - WIP
-This is a website where you can create events and send to friends and family
+This is a website where you can create events and save them as memories.
+Front End project using Bootstrap 4.
 
-## Technologies
+## Description
+Eventful Mems is a mini scaled event planning app tailored towards small family and friend get-togethers.
+
+## Technologies for Front End
+* HTML
 * Bootstrap 4
 * Scss
 * Jquery
